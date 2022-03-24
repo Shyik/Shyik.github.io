@@ -1,14 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Smooch Sans', sans-serif;
+    height: 100vH;
+    width: 100vW;
 }
 
 h1 {
 
 }
-
-div1 {
-
-    font-size: 32px;
-    font-weight: 750;
+nav{
+    background-color: #0D90FA;
+    height: 7%;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 12.5% 12.5% 12.5% 12.5%;
+}
+
+.grid-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#name_nav{
+    justify-content: start;
+    padding-left: 5%;
+}
+
+#Nav_Name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+li {
+    width: 120px;
+    list-style: none;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/*
+{#294B87,#91B5F2,#4885F0,#254C8F,#3969BD}
+{#0D90FA,#0BB7DE,#00F5E0,#0BDE91,#0DFA60}
+ */
