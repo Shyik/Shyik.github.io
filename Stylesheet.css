@@ -10,9 +10,13 @@ body {
     width: 100vW;
 }
 
-h1 {
-
+header { margin: 2%;
 }
+
+h1 {
+    padding-left: 48%;
+}
+
 nav{
     background-color: #0D90FA;
     height: 7%;
